@@ -12,7 +12,19 @@
 
 }
 
-
+h1{
+    animation-duration: 3s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+@keyframes aparecer {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 2;
+    }
+}
 
 
 
@@ -154,7 +166,7 @@ body footer h2{
  p{
     margin: 100px;
     padding: 150px;
-    background-color: rgb(165, 93, 117);
+    background-image: linear-gradient(rgb(221, 68, 132), rgb(175, 111, 121));
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
@@ -168,6 +180,7 @@ body footer h2{
  /* estilos de prensa */
 
  .revista img{
+    
     position: static;
     margin-left: 400px;
     margin-right: 100px;
